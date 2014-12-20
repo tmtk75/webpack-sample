@@ -1,5 +1,7 @@
 describe "Hello Test", ->
+
   it "should be OK", ->
-    a = 'test1'
-    e = 'test0'
-    expect(a).toEqual e
+    expect('test1').toEqual 'test0'
+
+  it "should be OK", ->
+    expect('cat').toEqual 'dog'
