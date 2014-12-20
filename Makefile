@@ -1,5 +1,5 @@
 bundle.js: entry.js content.js style.css
-	webpack 
+	webpack --progress --colors
 
 clean:
 	rm bundle.js
