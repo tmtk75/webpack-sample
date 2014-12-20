@@ -1,4 +1,4 @@
-bundle.js: entry.js content.js style.css
+bundle.js: entry.js content.js style.css hello.coffee
 	webpack --progress --colors
 
 jasmine:
