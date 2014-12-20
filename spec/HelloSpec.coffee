@@ -1,4 +1,4 @@
-mylib = require "my-lib"
+mylib = require "my-lib.coffee"
 
 describe "Hello Test", ->
 

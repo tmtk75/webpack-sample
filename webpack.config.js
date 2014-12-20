@@ -10,4 +10,7 @@ module.exports = {
             { test: /\.coffee$/, loader: "coffee-loader" },
         ]
     },
+    resolve: {
+        modulesDirectories: ["src", "node_modules"]
+    },
 };
