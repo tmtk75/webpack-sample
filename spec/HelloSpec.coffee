@@ -1,3 +1,5 @@
+mylib = require "my-lib"
+
 describe "Hello Test", ->
 
   it "should be OK", ->
