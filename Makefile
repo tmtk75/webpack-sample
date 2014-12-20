@@ -8,4 +8,4 @@ karma:
 	karma start karma.conf.js
 
 clean:
-	rm bundle.js
+	rm -f bundle.js
