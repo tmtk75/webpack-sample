@@ -4,3 +4,4 @@ document.write(require("./hello.coffee"));
 var _ = require("lodash");
 var mylib = require("my-lib.coffee");
 document.write(mylib());
+require("jquery");
